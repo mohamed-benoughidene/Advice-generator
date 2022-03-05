@@ -35,12 +35,12 @@ Users should be able to:
 
 ### Built with
 
-- Jsx
+- React
+- axios
 - Scss
 - Flexbox
 - Mobile-first workflow and Desktop-first workflow (a mix)
-- React
-- axios
+
 
 ### What I learned
 
