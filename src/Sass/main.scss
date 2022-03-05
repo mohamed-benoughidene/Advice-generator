@@ -1,0 +1,12 @@
+@import "./card";
+@import "./globe";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2 ease-out;
+  text-transform: capitalize;
+}
+body {
+  background-color: $BackgroundColor;
+}

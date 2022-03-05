@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+a {
+  color: #52ffa8;
+}
+
+h1 {
+  font-size: 0.9rem;
+  -webkit-transform: translateY(500%);
+          transform: translateY(500%);
+  color: #cee3e9;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #202632;
+  font-family: "Manrope", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    min-height: 600px;
+  }
+}
+
+.button {
+  padding: 0.2em 0.6em;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
+  -webkit-transition: -webkit-box-shadow 0.8s ease-out;
+  transition: -webkit-box-shadow 0.8s ease-out;
+  transition: box-shadow 0.8s ease-out;
+  transition: box-shadow 0.8s ease-out, -webkit-box-shadow 0.8s ease-out;
+}
+
+img {
+  color: #1f2632;
+}
+
+.button:hover {
+  -webkit-transition: -webkit-box-shadow 0.2s ease-out;
+  transition: -webkit-box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, -webkit-box-shadow 0.2s ease-out;
+  -webkit-box-shadow: 1px 1px 20px #52ffa8;
+          box-shadow: 1px 1px 20px #52ffa8;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #313a49;
+  min-height: 280px;
+  padding: 12px;
+  color: #cee3e9;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.219);
+          box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.219);
+  line-height: 50px;
+}
+
+.divider {
+  margin-top: 20px;
+  -webkit-transform: translateY(80%);
+          transform: translateY(80%);
+}
+
+.quoteNumber {
+  color: #52ffa8;
+  font-size: 1rem;
+  margin: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 606px) {
+  .card {
+    width: 90%;
+    min-width: 200px;
+  }
+}
+
+@media only screen and (min-width: 606px) {
+  .card {
+    width: 550px;
+  }
+}
+
+a {
+  color: #52ffa8;
+}
+
+h1 {
+  font-size: 0.9rem;
+  -webkit-transform: translateY(500%);
+          transform: translateY(500%);
+  color: #cee3e9;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #202632;
+  font-family: "Manrope", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    min-height: 600px;
+  }
+}
+
+.button {
+  padding: 0.2em 0.6em;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transform: translateY(70%);
+          transform: translateY(70%);
+  -webkit-transition: -webkit-box-shadow 0.8s ease-out;
+  transition: -webkit-box-shadow 0.8s ease-out;
+  transition: box-shadow 0.8s ease-out;
+  transition: box-shadow 0.8s ease-out, -webkit-box-shadow 0.8s ease-out;
+}
+
+img {
+  color: #1f2632;
+}
+
+.button:hover {
+  -webkit-transition: -webkit-box-shadow 0.2s ease-out;
+  transition: -webkit-box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out, -webkit-box-shadow 0.2s ease-out;
+  -webkit-box-shadow: 1px 1px 20px #52ffa8;
+          box-shadow: 1px 1px 20px #52ffa8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.2 ease-out;
+  transition: all 0.2 ease-out;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: #202632;
+}
+/*# sourceMappingURL=main.css.map */

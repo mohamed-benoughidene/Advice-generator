@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+//* Variables
+$FontFamily: "Manrope", sans-serif;
+$BackgroundColor: #202632;
+$CardColor: #313a49;
+$TextColor: hsl(193, 38%, 86%);
+$HighlightColor: hsl(150, 100%, 66%);
+//* mixing
+@mixin flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a {
+  color: $HighlightColor;
+}
+h1 {
+  font-size: 0.9rem;
+  transform: translateY(500%);
+  color: $TextColor;
+  text-align: center;
+}
+.container {
+  @include flexBox();
+  width: 100%;
+  height: 100vh;
+  background-color: $BackgroundColor;
+  font-family: $FontFamily;
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    min-height: 600px;
+  }
+}
+.button {
+  padding: 0.2em 0.6em;
+  background-color: $HighlightColor;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(70%);
+  transition: box-shadow 0.8s ease-out;
+}
+img {
+  color: #1f2632;
+}
+.button:hover {
+  transition: box-shadow 0.2s ease-out;
+  box-shadow: 1px 1px 20px $HighlightColor;
+}
