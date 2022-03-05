@@ -1,0 +1,36 @@
+@import "./globe";
+.card {
+  @include flexBox();
+  justify-content: space-evenly;
+  background-color: $CardColor;
+  min-height: 280px;
+  padding: 12px;
+  color: $TextColor;
+  font-size: 1.8rem;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.219);
+  line-height: 50px;
+}
+
+.divider {
+  margin-top: 20px;
+  transform: translateY(80%);
+}
+.quoteNumber {
+  color: $HighlightColor;
+  font-size: 1rem;
+  margin: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 606px) {
+  .card {
+    width: 90%;
+    min-width: 200px;
+  }
+}
+@media only screen and (min-width: 606px) {
+  .card {
+    width: 550px;
+  }
+}
